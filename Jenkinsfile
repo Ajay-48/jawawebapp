@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-               checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/Ajay-48/jawawebapp.git']]) 
+               checkout scmGit(branches: [[name: '*/uat']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/Ajay-48/jawawebapp.git']]) 
             }
         }
         stage('Build') {
