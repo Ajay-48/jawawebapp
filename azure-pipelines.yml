@@ -23,6 +23,7 @@ pool:
   name: 'Default'
   demands: 'java'
 
+
 stages:
 - stage: Build
   displayName: Build stage
